@@ -18,7 +18,7 @@ import './styles/design.css';
 function App() {
   return (
     <ProgressProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/CloudPrep-AI">
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Dashboard />} />
